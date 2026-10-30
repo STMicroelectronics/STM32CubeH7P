@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T00:18:20.999Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a414be35b7cbfd6ba56e542991d6dc916c9609e66b2826a03ad2d8532a546dcc"
+      },
+      "file": "hal_uart_two_boards_com_polling_responder.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1d0b7cf437ac54c673e24cfc1aa70938f65624df10a4ace0a4a7cdb8e9882783"
+      },
+      "file": "project/hal_uart_two_boards_com_polling_responder.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T23:35:07.908Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "704809d39ad490a42a8fba427b40853b6fffb828dc3ea45f28546030dd0a0a5a"
+      },
+      "file": "hal_tim_oc_toggle.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_tim_oc_toggle.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "09f9d15ea7122a26d4e8b881be749c9f9a6d312193f0b3d574896cf5553ee09e"
+      },
+      "file": "project/hal_tim_oc_toggle.ewp"
+    }
+  ]
+}

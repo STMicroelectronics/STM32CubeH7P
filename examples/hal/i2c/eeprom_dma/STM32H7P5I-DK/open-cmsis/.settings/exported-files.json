@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T19:25:07.400Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d58b402d735d488e3b33a70437fedadc36f0f65336bc4f22d5aab97b5e25113b"
+      },
+      "file": "hal_i2c_eeprom_dma.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "73752b619871da378713c658c3a321f7fb18debdeef4c0cae5a23c4bc6d8ee2d"
+      },
+      "file": "project/hal_i2c_eeprom_dma.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:50:16.554Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "2796961bc488d5ecc501efaf29dcf8c5c6aa281b78719c3dcb1d57e1921cb46b"
+      },
+      "file": "hal_dma_memory_to_memory.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "41944710b8b0a3e75544b2729d0483c444aeff77f9112195e0a81fad376843de"
+      },
+      "file": "project/hal_dma_memory_to_memory.cproject.yml"
+    }
+  ]
+}

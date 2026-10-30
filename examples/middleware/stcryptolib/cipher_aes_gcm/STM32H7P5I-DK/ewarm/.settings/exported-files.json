@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T04:54:42.911Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "52e1698b2057dfebc84c7eaab1bb56dc338621ffc27f2bce73d1c848cca10455"
+      },
+      "file": "stcryptolib_cipher_aes_gcm.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/stcryptolib_cipher_aes_gcm.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c499d712efd49f5772f208521d3842307e1f2ff6c9786964ed0c3e9d4ebcc715"
+      },
+      "file": "project/stcryptolib_cipher_aes_gcm.ewp"
+    }
+  ]
+}

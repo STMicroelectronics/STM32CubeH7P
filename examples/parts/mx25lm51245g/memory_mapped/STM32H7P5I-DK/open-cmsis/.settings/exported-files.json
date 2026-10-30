@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T07:00:16.432Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d9f785a548782d6c6d5aef0ec04f7e631f7a0f1b32da3ed0e59ade7db8b97c06"
+      },
+      "file": "mx25lm51245g_memory_mapped.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "280f131e965d91cef8fa82f05e21603dddc0ff21749dfa7ccd236aab20f0a86f"
+      },
+      "file": "project/mx25lm51245g_memory_mapped.cproject.yml"
+    }
+  ]
+}

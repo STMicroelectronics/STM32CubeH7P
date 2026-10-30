@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T20:23:38.119Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7cebbde3ee0f93cfd979b6c27035918f88d763f23d5c5df281a54925feae3f7e"
+      },
+      "file": "hal_i3c_private_it_controller.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e8ded98b3773ba8b2dc2d7739e9fa3727914912fdd0d0e2d92dcfebeaafee757"
+      },
+      "file": "project/hal_i3c_private_it_controller.cproject.yml"
+    }
+  ]
+}

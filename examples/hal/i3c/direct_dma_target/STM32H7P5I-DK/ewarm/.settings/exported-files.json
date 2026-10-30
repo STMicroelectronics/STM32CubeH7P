@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T20:02:48.211Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "8a50a30bac70e997b39cad3ae8d3dc59e0a3e73747dad25a41277dff11120c7e"
+      },
+      "file": "hal_i3c_direct_dma_target.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_i3c_direct_dma_target.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b5a0ca8e2d844b5de4dc5ef28a40dffca416a7dd26de2dff1e2bc008a34634ef"
+      },
+      "file": "project/hal_i3c_direct_dma_target.ewp"
+    }
+  ]
+}

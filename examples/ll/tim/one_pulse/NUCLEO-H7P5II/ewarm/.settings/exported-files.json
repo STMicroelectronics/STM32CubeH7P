@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T03:18:18.414Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "fdb6fd7eae50ba4482d9b04055752742511939f0db4aaee3c745d65098cd0c9a"
+      },
+      "file": "ll_tim_one_pulse.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/ll_tim_one_pulse.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "783565ee66520e375df39c510b0a643746e5bdc6206ab35c9a5423555999f785"
+      },
+      "file": "project/ll_tim_one_pulse.ewp"
+    }
+  ]
+}

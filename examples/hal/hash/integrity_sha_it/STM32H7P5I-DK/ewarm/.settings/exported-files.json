@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T19:04:52.304Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "47d9253ce310862c2c829b0712a8275f9faf24936bf5eceb3736490fd7ae0538"
+      },
+      "file": "hal_hash_integrity_sha_it.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_hash_integrity_sha_it.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "11208f8bed2a232d2712db1f01bfdbf335b64e66ea2eeb836e7ebeddc90545e3"
+      },
+      "file": "project/hal_hash_integrity_sha_it.ewp"
+    }
+  ]
+}

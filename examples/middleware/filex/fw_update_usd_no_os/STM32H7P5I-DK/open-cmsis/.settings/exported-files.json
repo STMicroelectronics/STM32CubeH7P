@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-22T13:42:21.949Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a6842df2ec6f12aa52d5a636d473826d0a9a49f69e207aeb083051937274601b"
+      },
+      "file": "filex_fw_update_usd_no_os.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f44d338dbe6f09202e73297bdab373f794de6850f381bec744dd81f81d665c70"
+      },
+      "file": "project/filex_fw_update_usd_no_os.cproject.yml"
+    }
+  ]
+}

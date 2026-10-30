@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T16:49:43.346Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f68db81681fcf6f59412d925ea74fad8cd2aaa9c7b3fec8089fdbb0fd17586f4"
+      },
+      "file": "hal_adc_single_conversion_trigger_sw_it.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_adc_single_conversion_trigger_sw_it.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "857bc0ce2d8b67bd83501d4d3917f2fbe7765b46e595d8697e7f2a09110cffce"
+      },
+      "file": "project/hal_adc_single_conversion_trigger_sw_it.ewp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T00:53:36.148Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f36d9e529ca8343c858267663099398be850101a5a4fb5bf076e7229e7912a28"
+      },
+      "file": "ll_adc_multi_channels_dma.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "2030ece43ad832c99787505009e34dbd43e14b0ddc76bb2e57036575a5fe7a35"
+      },
+      "file": "project/ll_adc_multi_channels_dma.cproject.yml"
+    }
+  ]
+}

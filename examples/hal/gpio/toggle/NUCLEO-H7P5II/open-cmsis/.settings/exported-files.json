@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T18:45:06.544Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3d9566d54645c40e787d3ac68a7efc32b4518e3680631a26eb93f0413acc2bcb"
+      },
+      "file": "hal_gpio_toggle.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a9bc65e7b80e3bb4fc3b217fd1930a90c163f9c7f3dce3181793009d1aea4ac8"
+      },
+      "file": "project/hal_gpio_toggle.cproject.yml"
+    }
+  ]
+}

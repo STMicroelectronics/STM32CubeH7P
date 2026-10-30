@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T07:21:10.597Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "2b46620f3d7e68114a9d1bdbad840e90c7e88334fb27da2bc3dbbb1efb4d0d35"
+      },
+      "file": "eeprom_emulation_read_write.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/eeprom_emulation_read_write.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9f22f80c7604495fe35764d0c2f6e8bcf0fe56be5d9d6c592ab51f4a8be505c1"
+      },
+      "file": "project/eeprom_emulation_read_write.ewp"
+    }
+  ]
+}

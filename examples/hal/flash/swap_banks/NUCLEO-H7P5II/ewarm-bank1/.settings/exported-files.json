@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T18:22:29.277Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "24d6afcd7135b129fe4da764ea937444d7eee8a098e1524ee878b46518b9b2d9"
+      },
+      "file": "hal_flash_swap_bank1.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_flash_swap_bank1.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "8faaec8c822240af68871bf9205d0ae76721a31576dc092bf105d4ecd4a5512d"
+      },
+      "file": "project/hal_flash_swap_bank1.ewp"
+    }
+  ]
+}

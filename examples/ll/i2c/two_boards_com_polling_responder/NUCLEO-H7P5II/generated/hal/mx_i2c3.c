@@ -1,0 +1,113 @@
+/**
+  ******************************************************************************
+  * @file           : mx_i2c3.c
+  * @brief          : I2C3 Peripheral initialization
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2026 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the mx_stm32h7pxx_hal_drivers_license.md file
+  * in the same directory as the generated code.
+  * If no mx_stm32h7pxx_hal_drivers_license.md file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+
+/* Includes ------------------------------------------------------------------*/
+#include "mx_i2c3.h"
+
+/* Private typedef -----------------------------------------------------------*/
+/* Private define ------------------------------------------------------------*/
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+/* Private functions prototype------------------------------------------------*/
+/* Exported variables by reference--------------------------------------------*/
+
+/******************************************************************************/
+/* Exported functions for I2C3 in LL layer */
+/******************************************************************************/
+I2C_TypeDef *mx_i2c3_i2c_init(void)
+{
+  LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_I2C3);
+  LL_RCC_SetI2CClockSource(LL_RCC_I2C123_CLKSOURCE_PCLK1);
+
+  /*
+    Timing automatically calculated with:
+     - I2C3 input clock at 130000000 Hz
+     - I2C clock speed at 1000000 Hz
+  */
+  LL_I2C_SetTiming(I2C3, 0xE0253A);
+  LL_I2C_ConfigOwnAddress1(I2C3, 63 << 1U, LL_I2C_OWNADDRESS1_7BIT);
+  /* LL_I2C_SetMasterAddressingMode(I2C3, LL_I2C_ADDRESSING_MODE_7BIT); */ /* Configuration matches register reset state at startup. */
+  LL_I2C_WRITE_REG(I2C3, CR2, (LL_I2C_READ_REG(I2C3, CR2) | I2C_CR2_AUTOEND | I2C_CR2_NACK));
+
+  LL_I2C_Enable(I2C3);
+  /* ### I2C3 GPIO Configuration ########################### */
+
+  /* GPIO Clocks activation */
+  LL_AHB4_GRP1_EnableClock(LL_AHB4_GRP1_PERIPH_GPIOC);
+
+  /**
+    [GPIO Pin] ------> [Signal Name]
+
+       PC8     ------>   I2C3_SCL
+       PC9     ------>   I2C3_SDA
+    **/
+
+  /* Configure IO output speed (Low, Medium, High or Very-High) */
+  /* LL_GPIO_SetPinSpeed(GPIOC, LL_GPIO_PIN_8, LL_GPIO_SPEED_FREQ_LOW); */ /* Configuration matches register reset state at startup. */
+  /* LL_GPIO_SetPinSpeed(GPIOC, LL_GPIO_PIN_9, LL_GPIO_SPEED_FREQ_LOW); */ /* Configuration matches register reset state at startup. */
+
+  /* Configure IO output type (Push-Pull or Open-Drain) */
+  LL_GPIO_SetPinOutputType(GPIOC, LL_GPIO_PIN_8 | LL_GPIO_PIN_9, LL_GPIO_OUTPUT_OPENDRAIN);
+
+  /* Activate the Pull-up, Pull-down resistor, or No pull for the current IO */
+  /* LL_GPIO_SetPinPull(GPIOC, LL_GPIO_PIN_8, LL_GPIO_PULL_NO); */ /* Configuration matches register reset state at startup. */
+  /* LL_GPIO_SetPinPull(GPIOC, LL_GPIO_PIN_9, LL_GPIO_PULL_NO); */ /* Configuration matches register reset state at startup. */
+
+  /* Configure the Alternate Function in current IO */
+  LL_GPIO_SetAFPin_8_15(GPIOC, LL_GPIO_PIN_8, LL_GPIO_AF_8);
+  LL_GPIO_SetAFPin_8_15(GPIOC, LL_GPIO_PIN_9, LL_GPIO_AF_8);
+
+  /* Configure IO direction mode (Input, Output, Alternate or Analog) */
+  LL_GPIO_SetPinMode(GPIOC, LL_GPIO_PIN_8, LL_GPIO_MODE_ALTERNATE);
+  LL_GPIO_SetPinMode(GPIOC, LL_GPIO_PIN_9, LL_GPIO_MODE_ALTERNATE);
+
+  LL_RCC_SetI2CClockSource(LL_RCC_I2C123_CLKSOURCE_PCLK1);
+  return I2C3;
+}
+
+void mx_i2c3_i2c_deinit(void)
+{
+  LL_I2C_Disable(I2C3);
+
+  LL_APB1_GRP1_ForceReset(LL_APB1_GRP1_PERIPH_I2C3);
+  LL_APB1_GRP1_ReleaseReset(LL_APB1_GRP1_PERIPH_I2C3);
+
+  LL_APB1_GRP1_DisableClock(LL_APB1_GRP1_PERIPH_I2C3);
+  /* ### GPIO deinitialization of I2C3: I2C3_SCL,I2C3_SDA ########################### */
+
+  /* Configure IO in Analog Mode */
+  LL_GPIO_SetPinMode(GPIOC, LL_GPIO_PIN_8, LL_GPIO_MODE_ANALOG);
+  LL_GPIO_SetPinMode(GPIOC, LL_GPIO_PIN_9, LL_GPIO_MODE_ANALOG);
+
+  /* Configure the default Alternate Function in current IO */
+  LL_GPIO_SetAFPin_8_15(GPIOC, LL_GPIO_PIN_8, LL_GPIO_AF_0);
+  LL_GPIO_SetAFPin_8_15(GPIOC, LL_GPIO_PIN_9, LL_GPIO_AF_0);
+
+  /* Configure the default value for IO Speed */
+  LL_GPIO_SetPinSpeed(GPIOC, LL_GPIO_PIN_8, LL_GPIO_SPEED_FREQ_LOW);
+  LL_GPIO_SetPinSpeed(GPIOC, LL_GPIO_PIN_9, LL_GPIO_SPEED_FREQ_LOW);
+
+  /* Configure the default value IO Output Type */
+  LL_GPIO_SetPinOutputType(GPIOC, LL_GPIO_PIN_8 | LL_GPIO_PIN_9, LL_GPIO_OUTPUT_PUSHPULL);
+
+  /* Deactivate the Pull-up and Pull-down resistor for the current IO */
+  LL_GPIO_SetPinPull(GPIOC, LL_GPIO_PIN_8, LL_GPIO_PULL_NO);
+  LL_GPIO_SetPinPull(GPIOC, LL_GPIO_PIN_9, LL_GPIO_PULL_NO);
+
+  /* Reset the IO output state */
+  LL_GPIO_WriteOutputPin(GPIOC, LL_GPIO_PIN_8 | LL_GPIO_PIN_9, LL_GPIO_PIN_RESET);
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T19:29:13.945Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "31b7e003eeae8305d8c6145df6a0536d665a00715fc5723e04a6b3195ad9a1b2"
+      },
+      "file": "hal_i2c_two_boards_com_dma_responder.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_i2c_two_boards_com_dma_responder.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "be5f8d77765e71dbd2a640f6b36982c7126b21dfec15c8a5c8a12b8e79611e84"
+      },
+      "file": "project/hal_i2c_two_boards_com_dma_responder.ewp"
+    }
+  ]
+}

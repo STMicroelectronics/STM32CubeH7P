@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T03:13:50.670Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "93919a77b73a2e8eeab251c9bca346438c70c5061386b3a6c09081723d546b92"
+      },
+      "file": "ll_tim_delayed_break.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "dbe730fa22f6a51b17b904b56090cd90fc8de1df6a9af81af3587c6679f71f5a"
+      },
+      "file": "project/ll_tim_delayed_break.cproject.yml"
+    }
+  ]
+}

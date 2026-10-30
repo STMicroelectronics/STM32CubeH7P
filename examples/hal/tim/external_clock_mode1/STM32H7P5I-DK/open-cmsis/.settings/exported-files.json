@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T23:27:50.525Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ac01d71a5dc1a4305959b63a1b841503c01f4098a1ba58c47f6deee161966eea"
+      },
+      "file": "hal_tim_external_clock_mode1.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "921946363f09911a17ddb8a9d8484021c5af31324c26915fe15d8d39adb44c01"
+      },
+      "file": "project/hal_tim_external_clock_mode1.cproject.yml"
+    }
+  ]
+}

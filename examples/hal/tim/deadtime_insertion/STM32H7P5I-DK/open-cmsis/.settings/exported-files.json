@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T23:12:10.643Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a1b42950dfb12a234262ed7f1f24f1cfedc74abb057f8b905bcec4e3bfb8ed41"
+      },
+      "file": "hal_tim_deadtime_insertion.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0cbff7aba4d9f45feeee9f2bb7a3da99d770a570079ac713c93ac70ae64696ac"
+      },
+      "file": "project/hal_tim_deadtime_insertion.cproject.yml"
+    }
+  ]
+}

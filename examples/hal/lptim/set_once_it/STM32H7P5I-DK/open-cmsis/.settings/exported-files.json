@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T21:09:58.940Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "16fa317e2fb19939b33b575375f4da774f9c742eebfd2a4e9c45e4809d54fe28"
+      },
+      "file": "hal_lptim_set_once_it.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "42d26479d7eaac6a4b3c5fec132c183cf8f3e6c5b91a0ab38cbdeb07e258d273"
+      },
+      "file": "project/hal_lptim_set_once_it.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T20:04:41.954Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "33ccda6a19bbbd3f02c06ce2e9389290d6dada8b0850ea21e885656b8cb1d8f2"
+      },
+      "file": "hal_i3c_entdaa_it_controller.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_i3c_entdaa_it_controller.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e480bb983a4701bc36672242e5017847b54c945a9d1fcebb4f56e9a9c9c3fe8e"
+      },
+      "file": "project/hal_i3c_entdaa_it_controller.ewp"
+    }
+  ]
+}

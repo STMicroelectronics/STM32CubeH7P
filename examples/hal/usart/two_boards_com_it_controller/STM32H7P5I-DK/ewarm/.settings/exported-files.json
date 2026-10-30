@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T00:29:29.321Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f3f783e72cdd4eb30de7b67c36a809dba70ec71ca915406ec2d58f869a7aa5b0"
+      },
+      "file": "hal_usart_two_boards_com_it_controller.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_usart_two_boards_com_it_controller.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "35ba6ec5b634743e6d2441d523b7f239b651c745ee6e4c236cd2d64ac23be360"
+      },
+      "file": "project/hal_usart_two_boards_com_it_controller.ewp"
+    }
+  ]
+}

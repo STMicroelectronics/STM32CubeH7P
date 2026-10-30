@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T07:10:10.030Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3eb6b3b0643c89fbad001adf726ab97e6837e056a19997e1fa4b4d12025b554a"
+      },
+      "file": "st7315_display_image.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/st7315_display_image.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b58d6f0ffd24b19a8acb0d325d45e616f6c298a0ba69b77b565a7a17a7ee2642"
+      },
+      "file": "project/st7315_display_image.ewp"
+    }
+  ]
+}

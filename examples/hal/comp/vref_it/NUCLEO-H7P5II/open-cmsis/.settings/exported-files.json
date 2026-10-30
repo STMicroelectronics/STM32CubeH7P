@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:04:02.452Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "457544c01ab4b6a3424563fc00988b5a80ffe18e884cb50db7e7f458b111fbdb"
+      },
+      "file": "hal_comp_vref_it.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "206588ce36a68be4f58930ab9e9c08caf31eb5ed76640001c9ca74728b504e32"
+      },
+      "file": "project/hal_comp_vref_it.cproject.yml"
+    }
+  ]
+}

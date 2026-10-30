@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T01:07:47.775Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "03dcefb31003b9c86895a32b37d1a93ad49cdaf02e184e975be51834b182aeaa"
+      },
+      "file": "ll_dac_sample_and_hold.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/ll_dac_sample_and_hold.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "56f492de9d7c7fa1a8d5e7de7ac195c5facf0ddbee8ead9b253cd70373ff6f28"
+      },
+      "file": "project/ll_dac_sample_and_hold.ewp"
+    }
+  ]
+}

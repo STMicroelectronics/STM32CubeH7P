@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T22:09:13.905Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a0e8a381e8e580b0e3663ce2730286ea21d05465b11a137b6d8d48ea0d0e3924"
+      },
+      "file": "hal_rtc_wakeup_timer_from_standby.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "89bc2c25e03c8ac0bf29164ee27056d5bb756582e6992b786141f012e99bf72c"
+      },
+      "file": "project/hal_rtc_wakeup_timer_from_standby.cproject.yml"
+    }
+  ]
+}

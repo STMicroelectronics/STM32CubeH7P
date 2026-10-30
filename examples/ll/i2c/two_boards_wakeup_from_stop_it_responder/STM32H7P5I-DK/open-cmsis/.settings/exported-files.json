@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T01:49:26.116Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1fec3b25c9c26c1f19113676e1d4523022e8d199719387b63606059bec5a55cc"
+      },
+      "file": "ll_i2c_two_boards_wakeup_from_stop_it_responder.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3cca7eb98e4b8ebb1afb5b8318c0afdb25528d4a9f6055df5b23d8dec1997cb2"
+      },
+      "file": "project/ll_i2c_two_boards_wakeup_from_stop_it_responder.cproject.yml"
+    }
+  ]
+}

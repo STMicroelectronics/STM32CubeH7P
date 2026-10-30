@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T00:53:44.746Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "81e1c4b6886ac359580260601a88c689ea72defba116f4521fcc50e9fe093427"
+      },
+      "file": "ll_adc_multi_channels_dma.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/ll_adc_multi_channels_dma.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "aec7175c2edd95c64b5482552675b4a6da6f7a263e4829257b55d73e687a28c5"
+      },
+      "file": "project/ll_adc_multi_channels_dma.ewp"
+    }
+  ]
+}

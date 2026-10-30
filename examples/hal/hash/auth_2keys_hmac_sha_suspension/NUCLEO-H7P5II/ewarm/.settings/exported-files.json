@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T18:46:54.839Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7338dc0eac3eee4ae3ebda2beef95824ea29d84841a32edbf29fcc929c3d5af6"
+      },
+      "file": "hal_hash_auth_2keys_hmac_sha_suspension.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_hash_auth_2keys_hmac_sha_suspension.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a70c14b4d040798f14962281549aec41b92077f9214a3f2d2e33db2ce8dc09ff"
+      },
+      "file": "project/hal_hash_auth_2keys_hmac_sha_suspension.ewp"
+    }
+  ]
+}

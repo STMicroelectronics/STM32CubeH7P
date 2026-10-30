@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T06:09:34.183Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0301d2558ab11000b0f3e064ef8fc4993ce154ef0d3b28f6c4aa9d0a9e0b9485"
+      },
+      "file": "usbx_device_hid_mouse_cdc_acm_uart_freertos.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/usbx_device_hid_mouse_cdc_acm_uart_freertos.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "dc9950b3338ca7c1e509ff6b090132d718de163164fc4a3abd2dc07dc378536d"
+      },
+      "file": "project/usbx_device_hid_mouse_cdc_acm_uart_freertos.ewp"
+    }
+  ]
+}

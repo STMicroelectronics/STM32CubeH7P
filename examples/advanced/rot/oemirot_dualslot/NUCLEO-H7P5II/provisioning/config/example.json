@@ -1,0 +1,145 @@
+{
+  "general": {
+    "bootpath": "OEMiRoT",
+    "isolation": false,
+    "crypto_implementation": "sw_crypto"
+  },
+  "board": {
+    "name": "NUCLEO-H7P5II",
+    "device": "STM32H7P5II",
+    "serie": "STM32H7P",
+    "trustzone": false,
+    "lifecycle": "PRODUCT_STATE",
+    "da": true,
+    "da_certificates_supported": false,
+    "static_config": true,
+    "obk": true,
+    "max_clock_speed_mhz": 520
+  },
+  "obk": {
+    "mode": "ur"
+  },
+  "memory": {
+    "type": "flash",
+    "block_type": "page",
+    "block_size": "0x2000",
+    "hdp_block_size": "0x100",
+    "prog_size": "16",
+    "bank_nb": 2,
+    "bank_size": "0x100000",
+    "total_size": "0x200000",
+    "wrpgrp_size":4,
+    "wrpgrp_ob_length":1,
+    "vtor_alignment":"0x400",
+    "base":"0x08000000"
+  },
+  "mcuboot": {
+    "data_image_header_size": "0x20",
+    "image_install_req_size": "0x10",
+    "image_version_offset": "0x14",
+    "image_version_size": "0x8",
+    "image_max_align_size": "0x10"
+  },
+  "lifecycle": {
+    "ob_name": "PRODUCT_STATE",
+    "states": [
+      {"name": "OPEN", "is_open": true, "is_provisioning": false, "prevents_reconnect": false, "ob_value": "0x39", "hal_define": "OEMIROT_OB_PRODUCT_STATE_OPEN"},
+      {"name": "PROVISIONING", "is_open": false, "is_provisioning": true, "prevents_reconnect": false, "ob_value": "0x17", "hal_define": "OEMIROT_OB_PRODUCT_STATE_PROVISIONING"},
+      {"name": "CLOSED", "is_open": false, "is_provisioning": false, "prevents_reconnect": true, "ob_value": "0x72", "hal_define": "OEMIROT_OB_PRODUCT_STATE_CLOSED"},
+      {"name": "LOCKED", "is_open": false, "is_provisioning": false, "prevents_reconnect": true, "ob_value": "0x5C", "hal_define": "OEMIROT_OB_PRODUCT_STATE_LOCKED"}
+    ]
+  },
+  "option_bytes": {
+    "default": [
+      {
+        "reset": false,
+        "mode": "ur",
+        "static_values": {
+          "A_WRPG0": "1",
+          "A_WRPG1": "1",
+          "A_WRPG2": "1",
+          "A_WRPG3": "1",
+          "A_WRPG4": "1",
+          "A_WRPG5": "1",
+          "A_WRPG6": "1",
+          "A_WRPG7": "1",
+          "A_WRPG8": "1",
+          "A_WRPG9": "1",
+          "A_WRPG10": "1",
+          "A_WRPG11": "1",
+          "A_WRPG12": "1",
+          "A_WRPG13": "1",
+          "A_WRPG14": "1",
+          "A_WRPG15": "1",
+          "A_WRPG16": "1",
+          "A_WRPG17": "1",
+          "A_WRPG18": "1",
+          "A_WRPG19": "1",
+          "A_WRPG20": "1",
+          "A_WRPG21": "1",
+          "A_WRPG22": "1",
+          "A_WRPG23": "1",
+          "A_WRPG24": "1",
+          "A_WRPG25": "1",
+          "A_WRPG26": "1",
+          "A_WRPG27": "1",
+          "A_WRPG28": "1",
+          "A_WRPG29": "1",
+          "A_WRPG30": "1",
+          "A_WRPG31": "1",
+          "B_WRPG0": "1",
+          "B_WRPG1": "1",
+          "B_WRPG2": "1",
+          "B_WRPG3": "1",
+          "B_WRPG4": "1",
+          "B_WRPG5": "1",
+          "B_WRPG6": "1",
+          "B_WRPG7": "1",
+          "B_WRPG8": "1",
+          "B_WRPG9": "1",
+          "B_WRPG10": "1",
+          "B_WRPG11": "1",
+          "B_WRPG12": "1",
+          "B_WRPG13": "1",
+          "B_WRPG14": "1",
+          "B_WRPG15": "1",
+          "B_WRPG16": "1",
+          "B_WRPG17": "1",
+          "B_WRPG18": "1",
+          "B_WRPG19": "1",
+          "B_WRPG20": "1",
+          "B_WRPG21": "1",
+          "B_WRPG22": "1",
+          "B_WRPG23": "1",
+          "B_WRPG24": "1",
+          "B_WRPG25": "1",
+          "B_WRPG26": "1",
+          "B_WRPG27": "1",
+          "B_WRPG28": "1",
+          "B_WRPG29": "1",
+          "B_WRPG30": "1",
+          "B_WRPG31": "1",
+          "HDP_AREA_START_A": "0xFFF",
+          "HDP_AREA_END_A": "0x0",
+          "HDP_AREA_START_B": "0xFFF",
+          "HDP_AREA_END_B": "0x0",
+          "IWDG_HW": 1
+        }
+      }
+    ],
+    "postflash": [
+      {
+        "reset": false,
+        "mode": "ur",
+        "static_values":
+        {
+          "A_WRPG0": "0x0",
+          "A_WRPG1": "0x0",
+          "A_WRPG2": "0x0",
+          "HDP_AREA_START_A": "0x0",
+          "HDP_AREA_END_A": "0x17f"
+        }
+      }
+    ]
+  }
+}

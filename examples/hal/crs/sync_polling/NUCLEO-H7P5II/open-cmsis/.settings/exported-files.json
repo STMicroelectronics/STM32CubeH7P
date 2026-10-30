@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:34:39.973Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "9cdb44b795d8edc78b0e02df74ff0e2656656257186c3ded126456f143954c70"
+      },
+      "file": "hal_crs_sync_polling.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "fdc87102febd724a251324030eeeeb36c1d658a363edd1b83a70d9878e46aa9b"
+      },
+      "file": "project/hal_crs_sync_polling.cproject.yml"
+    }
+  ]
+}

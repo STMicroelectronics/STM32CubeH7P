@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:42:06.432Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a581433c3f4ac4f10eb54b561c950afaeda20e1ee359e2764f20f4aaf484d426"
+      },
+      "file": "hal_dac_simple_conversion_trig_sw.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_dac_simple_conversion_trig_sw.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e94d7a9bda80e272f6538ed3dbcebd7548d4b98e4fd2226efba721c871be8fbe"
+      },
+      "file": "project/hal_dac_simple_conversion_trig_sw.ewp"
+    }
+  ]
+}

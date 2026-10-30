@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T18:05:19.295Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3a50152f0c48700dd19e608683caca79c4ffc6c0d2f8e6e5a7f1bbea77bcc80d"
+      },
+      "file": "hal_fdcan_loopback.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "787c523cd24dc80e0335b1fe43bc910f10dade0b294e13756384f31b692b4075"
+      },
+      "file": "project/hal_fdcan_loopback.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T01:18:52.617Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "293b3d5d35cd7bf69a3ba570efcb97b8ed33cfc6d610842825c6e3fc6ce68683"
+      },
+      "file": "ll_gpio_exti.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d1024f9e3170bf0458a9981142e16a0e4bc28638893dc723a2c219389cc119eb"
+      },
+      "file": "project/ll_gpio_exti.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T06:56:40.064Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "df4e554e04a4f9c83fafd8d1f73bd948122b9c8d74b3254a670fc5fa23540225"
+      },
+      "file": "button_async_gpio_control.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/button_async_gpio_control.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "6c1dbcc5299344ba13147cc665e3c5ae243c5c5256923b3ede1f1f0438610820"
+      },
+      "file": "project/button_async_gpio_control.ewp"
+    }
+  ]
+}

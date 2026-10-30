@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T18:32:06.222Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "6554d4ee7bce76e764a1d7e7488e84166705f29f9c51a462ed29ac38a1057093"
+      },
+      "file": "hal_fmac_fir_adc_dma.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "dfb66762fbaf71dd1586f6ff03d1e5f434695d5e0da23e27a79f509e5fd71968"
+      },
+      "file": "project/hal_fmac_fir_adc_dma.cproject.yml"
+    }
+  ]
+}

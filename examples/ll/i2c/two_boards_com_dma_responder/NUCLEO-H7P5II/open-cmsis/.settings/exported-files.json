@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T01:34:12.801Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "347b86a080f9e547ce7107fe90aaa9d1562d3b30feee72110612ada75838a2c4"
+      },
+      "file": "ll_i2c_two_boards_com_dma_responder.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "bae453de519255c62441fbe624b967ba8c88b11083d8014e058997dfdce8bf04"
+      },
+      "file": "project/ll_i2c_two_boards_com_dma_responder.cproject.yml"
+    }
+  ]
+}

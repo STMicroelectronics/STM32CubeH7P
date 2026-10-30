@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T16:35:50.288Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "519bc8d09f9f879d76ae7282bb9d96684b02fec1fc47343c13bd1f2ddaee9a34"
+      },
+      "file": "hal_adc_analog_watchdog.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_adc_analog_watchdog.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d1d52a8391a40f4829cc90414c2d622d89bcaafc9cf7aa75d89b831b526ee639"
+      },
+      "file": "project/hal_adc_analog_watchdog.ewp"
+    }
+  ]
+}

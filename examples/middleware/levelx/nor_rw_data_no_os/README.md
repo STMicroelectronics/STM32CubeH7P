@@ -1,0 +1,156 @@
+<img src="doc/subbrand-stm32.svg" width="50" alt="STM32 Subbrand Logo"/>
+
+# __Example: *levelx_nor_rw_data_no_os*__
+
+**Example version:** 2.0.7
+
+[![User Manual](doc/read_the-UM.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/index.html "An offline version is also available in the STM32Cube firmware package.")
+
+How to use the LevelX stack in standalone mode.
+
+This application demonstrates read and write operations on NOR flash using the nor flash dma no os driver.
+
+
+## __1. Detailed scenario__
+
+__Initialization phase__: At main program start, the `mx_system_init()` function is called. It initializes the peripherals, nonvolatile memory (such as flash memory, NVM, or external memories), MPU regions (if applicable), the system clock, and the SysTick.
+
+The application executes the following __example steps__:
+
+- __Step 1__: Initializes and opens the NOR flash driver.
+- __Step 2__: Writes data to the test sector.
+- __Step 3__: Reads data from the test sector.
+- __Step 4__: Verifies data integrity.
+- __Step 5__: Releases the test sector.
+- __Step 6__: Closes the NOR flash driver.
+__End of example__: After Step 6, the example is completed. You can check its status via the MX_STATUS_LED.
+
+
+If you enable `USE_TRACE`, you can follow these execution steps in the terminal logs:
+
+```text
+[INFO] Step1: Initializing LevelX NOR flash...
+[INFO] LevelX NOR flash initialized successfully
+[INFO] Opening NOR flash driver...
+[INFO] NOR flash driver opened successfully
+[INFO] Step2: Writing data to the test sector...
+[INFO] Successfully wrote data to the test sector
+[INFO] Step3: Reading data from the test sector...
+[INFO] Successfully read data from the test sector
+[INFO] Step4: Verifying data integrity...
+[INFO] Data integrity check passed
+[INFO] Step5: Releasing the test sector...
+[INFO] Successfully released the test sector
+[INFO] Step6: NOR flash driver closed successfully.
+```
+
+
+## __2. Example configuration__
+
+[![Configuration Manual](doc/configure_with-ConfigurationMa.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/configure/config_toc.html "An offline version is also available in the STM32Cube firmware package.")
+
+
+## __3. Hardware environment and setup__
+
+### __3.1. Generic Setup__
+
+This section describes the hardware setup principles that apply to any board.
+
+<!--
+@startuml
+@startditaa{doc/w25q128j_generic_hardware_setup.png}
+  +-------------------------+                     +-------------------------+
+  |          +--------------+                     |                         |
+  |          |   STM32 SPIi |                     |                         |
+  |          |              |                     |                         |
+  |          |          SCLK *---------------------* SCLK                   |
+  |          |              |                     |                         |
+  |          |          MOSI *---------------------* MOSI                   |
+  |          |              |                     |                         |
+  |          |         MISO *---------------------* MISO                    |
+  |          |              |                     |                         |
+  |          |          CS  *---------------------* CS#                     |
+  |          |              |                     |                         |
+  |          |              |                     |                         |
+  |          +--------------+                     |                         |
+  |                         |                     |                         |
+  |                         |                     |                         |
+  | STM32 MCU               |                     |       W25Q128J          |
+  +-------------------------+                     +-------------------------+
+@endditaa
+@enduml
+-->
+
+<!--
+@startuml
+@startditaa{doc/w25q128j_generic_hardware_setup.png}
+  +-------------------------+                     +-------------------------+
+  |          +--------------+                     |                         |
+  |          |STM32 XSPIi   |                     |                         |
+  |          |              |                     |                         |
+  |          |          CLK *---------------------* SCLK                    |
+  |          |              |                     |                         |
+  |          |       DQS/WS *---------------------* DQS                     |
+  |          |              |                     |                         |
+  |          |      IO[7:0] *---------------------* SIO[7:0]                |
+  |          |              |                     |                         |
+  |          |          nCS *---------------------* CS#                     |
+  |          |              |                     |                         |
+  |          |              |                     |                         |
+  |          +--------------+                     |                         |
+  |                         |                     |                         |
+  |                         |                     |                         |
+  | STM32 MCU               |                     |       MX66UW1G45G flash |
+  +-------------------------+                     +-------------------------+
+@endditaa
+@enduml
+-->
+
+### __3.2. Specific board setups__
+
+This section describes the exact hardware configurations of your project.
+
+
+<details>
+  <summary>On STM32H7P series.</summary>
+  <details>
+    <summary>On board STM32H7P5I-DK.</summary>
+
+  |  MCU pin  |  Signal name  |  User Label  |
+  |:---------:|:-------------:|:------------:|
+  |    PA2    |   USART2_TX   |  MCU_VCP_TX  |
+  |    PD2    |   XSPI1_CLK   |     PD2      |
+  |    PD0    |  XSPI1_DQS0   |     PD0      |
+  |    PD7    |   XSPI1_IO0   |     PD7      |
+  |    PD6    |   XSPI1_IO1   |     PD6      |
+  |    PD5    |   XSPI1_IO2   |     PD5      |
+  |    PD4    |   XSPI1_IO3   |     PD4      |
+  |   PD15    |   XSPI1_IO4   |     PD15     |
+  |   PD14    |   XSPI1_IO5   |     PD14     |
+  |   PD13    |   XSPI1_IO6   |     PD13     |
+  |    PB9    |   XSPI1_IO7   |     PB9      |
+  |   PG10    |  XSPI1_NCS1   |     PG10     |
+
+  On the STM32H7P5I-DK board, the onboard MX25LM51245G memory is connected via the Octo-SPI (XSPI1) interface. The XSPI1 kernel clock is HCLK5 (260 MHz) and is divided by 2, giving a 130 MHz interface clock.
+
+  </details>
+</details>
+
+
+## __4. Troubleshooting__
+
+[![Troubleshooting](doc/debug_with-Troubleshooting.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/debug/debug_toc.html "An offline version is also available in the Cube Firmware package.")
+
+
+## __5. See Also__
+
+[![SeeAlso](doc/go_further_with-STM32.svg)](https://dev.st.com/stm32cube-docs/examples/arch-v1/en/more/more_toc.html "An offline version is also available in the Cube Firmware package.")
+
+
+## __6. License__
+
+Copyright (c) 2026 STMicroelectronics.
+
+This software is licensed under terms that can be found in the LICENSE file in the root directory
+of this software component.
+If no LICENSE file comes with this software, it is provided AS-IS.

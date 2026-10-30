@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T00:52:05.184Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "5373d4b19c937d85a73ed5ebf3810424b5c9e8a2c42bdb13dcc4322e10b32d99"
+      },
+      "file": "ll_adc_analog_watchdog.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d8a4e24751f28090c110c518de526a6f6218b8b28c31ffc6c007e2233ee5dfae"
+      },
+      "file": "project/ll_adc_analog_watchdog.cproject.yml"
+    }
+  ]
+}

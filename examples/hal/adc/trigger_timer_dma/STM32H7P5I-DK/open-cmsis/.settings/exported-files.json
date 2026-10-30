@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T16:57:23.586Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "af4e34698e7990a1b43a19663f0daccc7270c66c956abd6e6ae71a0bdf34835a"
+      },
+      "file": "hal_adc_trigger_timer_dma.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f9c97b4d843a8d91b5f408a7e481a9ee380113af47341dac49a6245077b5e0c1"
+      },
+      "file": "project/hal_adc_trigger_timer_dma.cproject.yml"
+    }
+  ]
+}

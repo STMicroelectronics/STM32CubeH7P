@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T23:49:44.638Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "54c501338a049e22f3de71271beae965ef84a9918d93527da28553d8b8de403d"
+      },
+      "file": "hal_tim_timebase.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "316ce57dffed93ba9b878623ca60257c52fbacb3fb68a64b9aa8a7ab905099f1"
+      },
+      "file": "project/hal_tim_timebase.cproject.yml"
+    }
+  ]
+}

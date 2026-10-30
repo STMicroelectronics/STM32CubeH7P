@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T18:26:16.199Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e2de86c1df56d9543dc1b62a5031b0f3e65a5ce6159c368ed60fde080f2fcb7d"
+      },
+      "file": "hal_flash_write_protection.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e8a48b9ce2f8bf5dcf18e145583f338c98e2f3f0b4fce0802a4c2b0469259f76"
+      },
+      "file": "project/hal_flash_write_protection.cproject.yml"
+    }
+  ]
+}

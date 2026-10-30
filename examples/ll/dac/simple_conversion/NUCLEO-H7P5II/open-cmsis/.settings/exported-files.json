@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T01:13:20.860Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "61c1abc389354288c21e4498834dcb945a792dd3c70420a055267eb348b22550"
+      },
+      "file": "ll_dac_simple_conversion.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "b714f062d6cafd1962b36a07eb1cd376536a219a9c265f5f85276b5b5b72ca00"
+      },
+      "file": "project/ll_dac_simple_conversion.cproject.yml"
+    }
+  ]
+}

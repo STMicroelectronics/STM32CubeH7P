@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T03:01:42.603Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "5db1e0e8cf3d145da6a1302c81065e23d462a1f5ddb3faed436d7bac0702112f"
+      },
+      "file": "ll_spi_full_duplex_two_boards_com_dma_responder.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c35ac71a7e3a3136991bc4d67cea30bc76ffabea0ffee16ea888a92c5b4643ff"
+      },
+      "file": "project/ll_spi_full_duplex_two_boards_com_dma_responder.cproject.yml"
+    }
+  ]
+}

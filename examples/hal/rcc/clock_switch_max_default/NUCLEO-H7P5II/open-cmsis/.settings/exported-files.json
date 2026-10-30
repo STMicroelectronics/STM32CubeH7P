@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T21:33:28.540Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "991fa9df93e4947b1f256794802a8e4a4e4c8ee54730d6c7f2d3bbc417291793"
+      },
+      "file": "hal_rcc_clock_switch_max_default.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a1ef491653935c85682bc624d7a351407ca8682059a90cf9b3af4063ed90b355"
+      },
+      "file": "project/hal_rcc_clock_switch_max_default.cproject.yml"
+    }
+  ]
+}

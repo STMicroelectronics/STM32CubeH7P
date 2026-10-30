@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T23:02:45.750Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e10f1dfd0ad31754cc7d4ad45e0c5d0c91e9f66dac48e41b471d310d72ad2c00"
+      },
+      "file": "hal_tim_asymmetric_pwm.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4839404a10048a215bfdffb93be92cc57ef3b81f6ae9f90f783fa2d1560af9e1"
+      },
+      "file": "project/hal_tim_asymmetric_pwm.cproject.yml"
+    }
+  ]
+}

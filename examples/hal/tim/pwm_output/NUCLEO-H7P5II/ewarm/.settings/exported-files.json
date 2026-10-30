@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-21T16:46:38.531Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1147941a86f75744adc4c8798ce0edd4bf371d56d64395abf2014ff584f92c78"
+      },
+      "file": "hal_tim_pwm_output.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "15b9f38a462907d4e3ba9869c07bf87b734fc2181c0de2e804757bec7c5edb88"
+      },
+      "file": "project/hal_tim_pwm_output.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "5eaf97b007195e4260d4b35e668f81f3ef48111ea69bcc6b155990834b0974a5"
+      },
+      "file": "project/hal_tim_pwm_output.ewp"
+    }
+  ]
+}

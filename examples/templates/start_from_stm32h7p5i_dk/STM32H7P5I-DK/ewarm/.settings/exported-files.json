@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T07:18:26.175Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0ca594b01c5a97578d554acc4480474011b3424a5dd170e033c05a5c6f618d8a"
+      },
+      "file": "template_start_from_stm32h7p5i-dk.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/template_start_from_stm32h7p5i-dk.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "090d0c27839538ff98dae850d2ce91c0b08bb6fd683c0a3246a98c3672b2711c"
+      },
+      "file": "project/template_start_from_stm32h7p5i-dk.ewp"
+    }
+  ]
+}

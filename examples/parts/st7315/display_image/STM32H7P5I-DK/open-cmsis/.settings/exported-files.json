@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T07:09:50.474Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c937aa7950f1babb53f51e667ca66faaac311bc71a61992bb6b8e1d51bf029bf"
+      },
+      "file": "st7315_display_image.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1031eb920ed8718eb9a38934cec91e40ee00259c375c3820ee5c2ecc94715d30"
+      },
+      "file": "project/st7315_display_image.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T05:01:03.114Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "6a5397a003133313f6dbe980033002fbc3f809fb8973d4ab0f2a1dff346abdeb"
+      },
+      "file": "stcryptolib_cipher_rsa_v2_2.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/stcryptolib_cipher_rsa_v2_2.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e3c48ac2fa1ae019feb66da6f00cc1c2fecb56ddd183aa746fa2eba71d0d595f"
+      },
+      "file": "project/stcryptolib_cipher_rsa_v2_2.ewp"
+    }
+  ]
+}

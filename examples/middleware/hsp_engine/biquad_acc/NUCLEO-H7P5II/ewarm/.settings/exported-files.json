@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T04:18:46.659Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "335e59d4759aa9223e5b151d3549eefe0cc6e84b2c15e2c9373f5f1afdca1795"
+      },
+      "file": "hsp_engine_biquad_acc.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hsp_engine_biquad_acc.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "3451ff0cdc41a43aff95cb77c92f5b426fcf372c7191f7c48ea49c05a22d5a36"
+      },
+      "file": "project/hsp_engine_biquad_acc.ewp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T22:16:04.210Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "19f02ddf780bd8af262c980b2d436da4b9b3db7c18b05ad5d7ab3f618e4591ac"
+      },
+      "file": "hal_sd_read_write_it.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d138bd67864739f25cd77429271e6b6e7aed5008e9c3aeedf88bedd3fea7f055"
+      },
+      "file": "project/hal_sd_read_write_it.cproject.yml"
+    }
+  ]
+}

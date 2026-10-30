@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:56:13.414Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "bc80ec0ca1f515432afe0058df3309370ecacbed985586d318c536f4a9610a13"
+      },
+      "file": "hal_dma_trigger.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "41944710b8b0a3e75544b2729d0483c444aeff77f9112195e0a81fad376843de"
+      },
+      "file": "project/hal_dma_trigger.cproject.yml"
+    }
+  ]
+}

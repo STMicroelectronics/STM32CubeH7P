@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T06:11:39.711Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "27297b8d4d1bfa037690aca6b5931cab0e61e7b587271d2b0bd241b5ae3e8faa"
+      },
+      "file": "usbx_device_hid_mouse_freertos.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "83165d9fa223b7dedf398d1055e913eef6a3d05a54fc14ce57e5f14273dac58c"
+      },
+      "file": "project/usbx_device_hid_mouse_freertos.cproject.yml"
+    }
+  ]
+}

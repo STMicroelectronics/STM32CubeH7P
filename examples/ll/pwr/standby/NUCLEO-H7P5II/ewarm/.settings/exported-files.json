@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T02:42:24.288Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "53c662a20bdaa79cea73f258f11b188305ba7b7e42e4a8bcd88064f8d4e24a8b"
+      },
+      "file": "ll_pwr_standby.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/ll_pwr_standby.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "eff89e6a01a1bfaaeeef3a9c88f0f7ccaf213eaa8b92d5f13fc6bcd8c74121dd"
+      },
+      "file": "project/ll_pwr_standby.ewp"
+    }
+  ]
+}

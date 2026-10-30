@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:16:54.797Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "82bc91553f71b68c10369b0301ff489b4bb1b61e63826e40dfb2d0182cf175e1"
+      },
+      "file": "hal_cortex_get_systick.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a1ef491653935c85682bc624d7a351407ca8682059a90cf9b3af4063ed90b355"
+      },
+      "file": "project/hal_cortex_get_systick.cproject.yml"
+    }
+  ]
+}

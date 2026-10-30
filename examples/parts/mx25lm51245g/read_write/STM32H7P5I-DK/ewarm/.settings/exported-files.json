@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T07:02:50.374Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "815d6f1b9174403c477f3de9a3dbb9f6ece0c5ba848cb91e20276760298edf7d"
+      },
+      "file": "mx25lm51245g_read_write.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/mx25lm51245g_read_write.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ad51338a8b667e127a4da5b7dd84edd2c6c4f22ba6d984d4ad9f3eff5530cffb"
+      },
+      "file": "project/mx25lm51245g_read_write.ewp"
+    }
+  ]
+}

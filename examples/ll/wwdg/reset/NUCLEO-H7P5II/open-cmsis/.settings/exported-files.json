@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T03:46:16.329Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1c20394683bc0e0290f385ecdfeeafab8a7cf05b02f0a65b9d3b314bac15212e"
+      },
+      "file": "ll_wwdg_reset.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "91bd7692477a5076a95d74d7d95f7c2bdaadb810d449b6e6522240c4bd5136c2"
+      },
+      "file": "project/ll_wwdg_reset.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T04:58:56.948Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ef196e001467e78afea2fca4fdcdec9243955bd251de6494da01c6b7f6001bbe"
+      },
+      "file": "stcryptolib_cipher_chachapoly.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/stcryptolib_cipher_chachapoly.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c499d712efd49f5772f208521d3842307e1f2ff6c9786964ed0c3e9d4ebcc715"
+      },
+      "file": "project/stcryptolib_cipher_chachapoly.ewp"
+    }
+  ]
+}

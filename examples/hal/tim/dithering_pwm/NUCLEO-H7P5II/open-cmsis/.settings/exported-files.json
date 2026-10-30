@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T23:16:55.702Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "45d60c1c9a1744ad72bdc89cd4f21e1b97d2c125b485758ad678c9afe168319a"
+      },
+      "file": "hal_tim_dithering_pwm.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "a3e2939c1d6c7b84384e739850719778b0768f8f0ffc7b36225494c4e1dece87"
+      },
+      "file": "project/hal_tim_dithering_pwm.cproject.yml"
+    }
+  ]
+}

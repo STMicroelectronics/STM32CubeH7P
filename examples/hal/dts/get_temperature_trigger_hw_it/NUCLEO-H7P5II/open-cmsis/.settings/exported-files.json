@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:58:03.789Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0d6037ddfc7ff91c083970f23cde06125632055d3054b4c425ddf579b0d99f40"
+      },
+      "file": "hal_dts_get_temperature_trigger_hw_it.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "d20b72b45efda2d22bc8648c2afb88dce39260291f40c5d3c33272e105d88357"
+      },
+      "file": "project/hal_dts_get_temperature_trigger_hw_it.cproject.yml"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T21:13:18.957Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "7eca258cc2be6444e08113a6e0d0943bb8b81669892e4d956bf3221ce50b2989"
+      },
+      "file": "hal_lptim_timeout.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_lptim_timeout.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "06476d776c30da696727e1b09e5af5036d744330e3ac0c296d83bcdcd5f15f16"
+      },
+      "file": "project/hal_lptim_timeout.ewp"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# file-format: 1.0.0
+if(CMAKE_BUILD_TYPE STREQUAL "release_GCC_STM32H7P5I-DK")
+  set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES SUFFIX ".elf")
+  target_compile_options(${CMAKE_PROJECT_NAME} PUBLIC ${CPU_FLAGS})
+  target_compile_options(${CMAKE_PROJECT_NAME} PUBLIC "SHELL:-Os -fdata-sections -ffunction-sections -std=gnu11 -Wall -fstack-usage --specs=nano.specs --specs=nosys.specs -g -Werror=implicit-function-declaration -Wno-incompatible-pointer-types ${CC_SECURE}")
+  target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC ../appli/user_modifiable/_release_GCC_STM32H7P5I-DK ../../../../../../arch/cmsis/CMSIS/Core/Include ../appli ../appli/generated/hal ../appli/generated/utilities/basic_stdio ../../../../../../stm32h7pxx_dfp/Include ../../../../../../stm32h7pxx_drivers/hal ../../../../../../stm32h7pxx_drivers/ll ../../../../../../stm32h7pxx_drivers/timebases ../../../../../../utilities/basic_stdio ../../../../../../utilities/basic_stdio/interface_io)
+  target_compile_definitions(${CMAKE_PROJECT_NAME} PUBLIC USE_TRACE=0 STM32H7P5xx _RTE_)
+  target_link_options(${CMAKE_PROJECT_NAME} PUBLIC -Wl,-Map=${CMAKE_PROJECT_NAME}.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -static --specs=nano.specs --specs=nosys.specs ${CC_SECURE})
+  target_link_options(${CMAKE_PROJECT_NAME} PUBLIC ${CPU_FLAGS})
+endif()
+
+# Clean .map and .elf file
+set_property(DIRECTORY APPEND PROPERTY ADDITIONAL_CLEAN_FILES "${CMAKE_SOURCE_DIR}/build/${CMAKE_BUILD_TYPE}/${CMAKE_PROJECT_NAME}.map")
+set_property(DIRECTORY APPEND PROPERTY ADDITIONAL_CLEAN_FILES "${CMAKE_SOURCE_DIR}/build/${CMAKE_BUILD_TYPE}/${CMAKE_PROJECT_NAME}.elf")

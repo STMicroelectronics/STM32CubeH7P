@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:27:37.709Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ceb32d8c28975ac5e521b034a08a5c84ca582bdf7255cf3e4bd587d9c14b7986"
+      },
+      "file": "hal_crc_user_defined_polynomial.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_crc_user_defined_polynomial.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "eb937ee4539b6f8b3161a838d546d50b999432faceb9bf94bf192ee3f140a22c"
+      },
+      "file": "project/hal_crc_user_defined_polynomial.ewp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:47:09.492Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4b2d79a25d147ccc9ac19019bfc38c02084c179e47a2a87c290c7af4dedbd3eb"
+      },
+      "file": "hal_dbgmcu_read_device_info.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "76f730b69516f25b5b240b1f59eed60cf07a430210318aecb887ae7e208543c2"
+      },
+      "file": "project/hal_dbgmcu_read_device_info.cproject.yml"
+    }
+  ]
+}

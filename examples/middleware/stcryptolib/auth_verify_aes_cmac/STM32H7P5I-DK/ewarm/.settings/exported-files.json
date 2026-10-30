@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T04:42:02.812Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "0a31e05e6b244c2be4b07ee71750feb2e223c3dec360fb2f932698cb95a36d97"
+      },
+      "file": "stcryptolib_auth_verify_aes_cmac.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/stcryptolib_auth_verify_aes_cmac.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c499d712efd49f5772f208521d3842307e1f2ff6c9786964ed0c3e9d4ebcc715"
+      },
+      "file": "project/stcryptolib_auth_verify_aes_cmac.ewp"
+    }
+  ]
+}

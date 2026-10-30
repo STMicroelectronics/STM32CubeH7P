@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T03:43:40.300Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "26b4aa152cb7bc5d3315f228086c7679667b7a68ccac07ca06ba7c38b0755f87"
+      },
+      "file": "ll_usart_two_boards_com_dma_responder.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/ll_usart_two_boards_com_dma_responder.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "e8da13af563b772cef076a7e458cba45e4810ac400d8f5d3e90429a68a3941ba"
+      },
+      "file": "project/ll_usart_two_boards_com_dma_responder.ewp"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T21:05:21.790Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "ad572e31540f8c05f19e214012f88d5fb7ac55ddde0d5763e734427d9ea6c4da"
+      },
+      "file": "hal_lptim_pwm_external_clock.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "eb5cf1467235940d93ae1833ace092502d3a73c6b82b3e1ab4adba9a18bdab5a"
+      },
+      "file": "project/hal_lptim_pwm_external_clock.cproject.yml"
+    }
+  ]
+}

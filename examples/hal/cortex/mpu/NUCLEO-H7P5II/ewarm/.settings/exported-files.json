@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T17:19:04.821Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "30a9e6de995d7da83400e3ea7b203292d2e3b9bd49c965a0e3c67a40c8b150a1"
+      },
+      "file": "hal_cortex_mpu.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/hal_cortex_mpu.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "f2c3093f062d4de17ad7b807e1c20eb82eb8516490cfd3162ee9fd74866e9347"
+      },
+      "file": "project/hal_cortex_mpu.ewp"
+    }
+  ]
+}

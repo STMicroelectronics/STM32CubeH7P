@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T02:46:39.379Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "8cf0d75ca7dadd65454daed5fd1b61ea6c6e47d05505390b6d83c50bc9d75fe4"
+      },
+      "file": "ll_pwr_stop.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/ll_pwr_stop.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "4ea70d9d83add76dc92e4f3ca957802703496ed2b54326b3f55a33f83f0c6557"
+      },
+      "file": "project/ll_pwr_stop.ewp"
+    }
+  ]
+}

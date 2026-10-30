@@ -1,0 +1,23 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-17T23:29:41.293Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "fa327af576e9acd3d270d15a133b8e6f6ff3ffd772c86e72e35ebbf984e6dd76"
+      },
+      "file": "hal_tim_input_capture_dma.csolution.yml"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "1bd28f76da6206d736045ff3aa395256814b0af49ad1ebc90c6a69c3212283b6"
+      },
+      "file": "project/hal_tim_input_capture_dma.cproject.yml"
+    }
+  ]
+}

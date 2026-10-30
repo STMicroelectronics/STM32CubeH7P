@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Do not modify this file as it is used by STM32CubeMX2 to determine what and how to update your project with new configuration",
+  "version": "1.0.0",
+  "timestamp": "2026-09-18T03:25:28.565Z",
+  "files": [
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "74a24e043da50185aaa845fa728c13687a25a25374089a675c83f26ab1a52790"
+      },
+      "file": "ll_tim_pwm_dma.eww"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "792b060aa2af8ca2fe1e7046021c2b11a1bca5a56c2e048b949b442120e2f762"
+      },
+      "file": "project/ll_tim_pwm_dma.ewd"
+    },
+    {
+      "fileGroup": "project_file",
+      "checksum": {
+        "algo": "sha256",
+        "digest": "c32895643167cd932806badf37d657b993f37b6d6c8eba4cec0c746c1e148f9a"
+      },
+      "file": "project/ll_tim_pwm_dma.ewp"
+    }
+  ]
+}
